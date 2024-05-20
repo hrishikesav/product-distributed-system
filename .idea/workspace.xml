@@ -4,12 +4,67 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6745441b-79bc-4d72-8860-ea7513936f90" name="Changes" comment="" />
+    <list default="true" id="6745441b-79bc-4d72-8860-ea7513936f90" name="Changes" comment="Project skeleton created">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/model/ProductAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/model/RecommendationSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/model/ReviewSummary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/model/ServiceAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/service/ProductCompositeIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/service/ProductCompositeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/service/ProductCompositeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-composite-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/service/ServiceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/hrishi/api/model/Recommendation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/hrishi/api/service/RecommendationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/hrishi/api/service/RecommendationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recommendation-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/com/hrishi/api/model/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/com/hrishi/api/service/ReviewService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-service/src/main/java/com/hrishi/api/service/ReviewServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/review-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/src/main/java/com/hrishi/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/src/main/java/com/hrishi/api/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-service/src/main/java/com/hrishi/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/review-service/src/main/java/com/hrishi/api/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2gSCYWhA3lYKK4cdD922IYUG4Es" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -19,13 +74,112 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App (1).executor": "Run",
+    "Application.App (2).executor": "Run",
+    "Application.App (3).executor": "Run",
+    "Application.App.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hrish/IdeaProjects/product-distributed-system/product-composite-service/src/main/resources",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hrish\IdeaProjects\product-distributed-system\product-composite-service\src\main\resources" />
+      <recent name="C:\Users\Hrish\IdeaProjects\product-distributed-system\review-service\src\main\resources" />
+      <recent name="C:\Users\Hrish\IdeaProjects\product-distributed-system\recommendation-service\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App (3)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hrishi.api.App" />
+      <module name="review-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrishi.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hrishi.api.App" />
+      <module name="recommendation-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrishi.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hrishi.api.App" />
+      <module name="product-composite-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrishi.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hrishi.api.App" />
+      <module name="product-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrishi.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="product-distributed-system" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="product-distributed-system" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (3)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
