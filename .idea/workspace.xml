@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6745441b-79bc-4d72-8860-ea7513936f90" name="Changes" comment="First working version with four services.">
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/exceptions/GlobalControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/exceptions/HttpErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/exceptions/InvalidInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/exceptions/NotFoundException.java" afterDir="false" />
+    <list default="true" id="6745441b-79bc-4d72-8860-ea7513936f90" name="Changes" comment="Adding centralized exception handling.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/service/ProductCompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-composite-service/src/main/java/com/hrishi/api/service/ProductCompositeIntegration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/hrishi/api/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +47,12 @@
     &quot;Application.App (3).executor&quot;: &quot;Run&quot;,
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.product-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.product-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.product-service [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.product-service [org.apache.maven.plugins:maven-jar-plugin:3.3.0:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.product-service [org.springframework.boot:spring-boot-maven-plugin:3.2.5:repackage].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.product-service [package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -72,7 +72,7 @@
       <recent name="C:\Users\Hrish\IdeaProjects\product-distributed-system\recommendation-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hrishi.api.App" />
       <module name="review-service" />
@@ -140,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
       </list>
@@ -171,11 +171,20 @@
       <option name="project" value="LOCAL" />
       <updated>1716216212974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding centralized exception handling.">
+      <option name="closed" value="true" />
+      <created>1716254325530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716254325530</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First working version with four services." />
-    <option name="LAST_COMMIT_MESSAGE" value="First working version with four services." />
+    <MESSAGE value="Adding centralized exception handling." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding centralized exception handling." />
   </component>
 </project>
